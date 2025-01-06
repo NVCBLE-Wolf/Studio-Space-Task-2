@@ -46,8 +46,6 @@ async function getReports(){
                 }
             })
         })
-
-        console.log("services :>> ", JSON.parse(JSON.stringify(_sameServices)))
         
         let result = {
             totalAgencies: _totalAgencies,
